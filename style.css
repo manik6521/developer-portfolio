@@ -4,12 +4,19 @@
     margin: 0;
     padding: 0;
 }
-p{
+body{
     font-family: roboto;
 }
 .container {
     width: 100vw;
     display: contents;
+}
+.row {
+    display: flex;
+    align-items: center;
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2 {
@@ -32,13 +39,6 @@ h2 span {
     width: 50%;
 }
 
-.row {
-    display: flex;
-    align-items: center;
-    background-image: url("image/top-banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 p#my-des {
     font-size: 18px;
     text-align: justify;
@@ -46,7 +46,7 @@ p#my-des {
     color: #646464;
     line-height: 1.5;
 }
-button#btn {
+button #btn {
     padding: 12px 20px;
     font-size: 20px;
     font-family: 'Roboto';
