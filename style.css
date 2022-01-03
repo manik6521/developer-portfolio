@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,900;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: roboto;
+}
+.container {
+    width: 100vw;
+    display: contents;
+}
+
+h2 {
+    font-size: 71px;
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-weight: 500;
+}
+h2 span {
+    color: #f33982;
+}
+.part-1 {
+    width: 50%;
+    float: left;
+    padding-left: 27px;
+}
+
+.part-2 {
+    float: right;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+p#my-des {
+    font-size: 23px;
+    text-align: justify;
+    padding-right: 39px;
+}
