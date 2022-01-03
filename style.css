@@ -24,9 +24,13 @@ h2 span {
 .part-1 {
     width: 50%;
     float: left;
-    padding-left: 27px;
+    padding-left: 187px;
 }
-
+.row{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .part-2 {
     float: right;
     width: 50%;
@@ -37,7 +41,20 @@ h2 span {
     align-items: center;
 }
 p#my-des {
-    font-size: 23px;
+    font-size: 18px;
     text-align: justify;
     padding-right: 39px;
+    color: #646464;
+    line-height: 1.5;
+}
+button#btn {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    background: linear-gradient(45deg, #ffa07a, #ff6347);
+    border: none;
+    color: white;
+    margin: 18px 0px;
+    text-transform: uppercase;
 }
