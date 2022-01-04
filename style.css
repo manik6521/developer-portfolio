@@ -37,7 +37,7 @@ h2 {
     line-height: 1.5;
     font-weight: 500;
 }
-h2 span {
+span {
     color: #f33982;
 }
 .part-1 {
@@ -94,4 +94,28 @@ button{
 
 .dream-text h6 {
     line-height: 2.5;
+}
+.experience-iteam {
+    display: flex;
+    margin-bottom: 27px;
+}
+.half h3 {
+    font-size: 27px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.box-iteam {
+    margin: 31px 91px;
+    box-shadow: 6px 3px 12px 12px #dddd;
+    padding: 55px;
+}
+
+.half.box-iteam span {
+    font-size: 24px;
+    line-height: 2;
+}
+
+.half.box-iteam p {
+    font-size: 22px;
+    line-height: 1.5;
 }
