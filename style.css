@@ -69,7 +69,11 @@ button{
     margin: 18px 0px;
     text-transform: uppercase;
 }
-
+#dream {
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .half{
     width: 50%;
 }
@@ -98,6 +102,9 @@ button{
 .experience-iteam {
     display: flex;
     margin-bottom: 27px;
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 .half h3 {
     font-size: 27px;
@@ -105,7 +112,7 @@ button{
     line-height: 1.5;
 }
 .box-iteam {
-    margin: 31px 91px;
+    margin: 31px 73px;
     box-shadow: 6px 3px 12px 12px #dddd;
     padding: 55px;
 }
