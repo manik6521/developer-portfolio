@@ -119,3 +119,20 @@ button{
     font-size: 22px;
     line-height: 1.5;
 }
+.baby {
+    border-left: 7px solid;
+    border-image: linear-gradient( #ffa07a, #ff6347);
+    border-image-slice: 1;
+}
+.full {
+    border-left: 7px solid;
+    border-image: linear-gradient(#0bb1ee, #21c8dd);
+    border-image-slice: 1;
+}
+footer h5 {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 10px;
+    color: #acacac;
+}
