@@ -14,11 +14,23 @@ body{
 .row {
     display: flex;
     align-items: center;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h6{
+    font-size: 30px;
+}
+.shap-box{
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
-
 h2 {
     font-size: 71px;
     font-family: 'Roboto';
@@ -40,7 +52,7 @@ h2 span {
 }
 
 p#my-des {
-    font-size: 18px;
+    font-size: 22px;
     text-align: justify;
     padding-right: 39px;
     color: #646464;
@@ -56,4 +68,30 @@ button{
     color: white;
     margin: 18px 0px;
     text-transform: uppercase;
+}
+
+.half{
+    width: 50%;
+}
+.image-host {
+    width: 644px;
+    padding-left: 140px;
+}
+
+.image-host img {
+    width: 100%;
+}
+.dream-text p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.dream-text {
+    padding: 48px;
+    font-family: sans-serif;
+}
+
+.dream-text h6 {
+    line-height: 2.5;
 }
